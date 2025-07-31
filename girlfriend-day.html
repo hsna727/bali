@@ -52,8 +52,8 @@
     I want you to be reassured that I care about you so much that I am willing to do everything it takes to make sure you feel this way.
   
     I feel so grateful getting to call myself your boyfriend. I've misssed you a lot whilst you've been gone, and I wish I could meet you today, but this will have to suffice for now 😓 I miss cuddling you and kissing you and holding your hand, I miss seeing your pretty face and I miss us going out, and can't wait to start seeing you more again 😭
-    
-    BUT BEING ABLE TO CALL YOU MY GIRLFRIEND IS THE BEST THING ABOUT GIRLFRIEND'S DAY BECAUSE I ACTUALLY HAVE SOMEONE TO SAY IT TO 🥳 
+
+    BUT BEING ABLE TO CALL YOU MY GIRLFRIEND IS THE BEST THING ABOUT GIRLFRIEND'S DAY BECAUSE I ACTUALLY AM LUCKY ENOUGH TO GET TO SAY THIS TO YOU 🥳 
 
     I hope you have a very special, lovely, wonderful day. This day is about you, and although we gotta celebrate it like this over the internet this year, let's hope I get to spoil my pretty girl the way she deserves next year 😛 
 
@@ -63,21 +63,23 @@
     <img src="cuties2.jpg" alt="cutie photo" style="width: 300px; border-radius: 12px; margin-top: 20px;" />
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-    <script>
-      setTimeout(() => {
-        confetti({
-          particleCount: 100,
-          spread: 100,
-          origin: { y: 0.2 },
-          shapes: ['text'],
-          scalar: 1.2,
-          ticks: 200,
-          shapes: ['🌷']
-        });
-      }, 500);
-    </script>
-    
-    
+<script>
+  function launchTulipConfetti() {
+    confetti({
+      particleCount: 250,
+      spread: 360,
+      origin: { y: 0 },
+      shapes: ['🌷'],
+      scalar: 1.8,
+      ticks: 500,
+    });
+  }
+
+  // Launch 3 rounds over 3 seconds
+  setTimeout(launchTulipConfetti, 400);
+  setTimeout(launchTulipConfetti, 1500);
+  setTimeout(launchTulipConfetti, 2600);
+</script>
 
 </body>
 </html>
